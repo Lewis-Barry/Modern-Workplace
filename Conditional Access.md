@@ -1,6 +1,6 @@
 ---
 title: Conditional Access
-parent: Identity-Management
+parent: Identity
 has_children: false
 nav_order: 1
 ---
