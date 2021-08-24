@@ -33,6 +33,13 @@ Set-ExecutionPolicy -Scope Process -ExecutionPolicy RemoteSigned
 Install-Script -Name Get-WindowsAutoPilotInfo
 Get-WindowsAutoPilotInfo -OutputFile AutoPilotHWID.csv
 ```
+**Or use the PowerShell Module: Get-WindowsAutoPilotInfo**
+
+```
+ Install-Script –Name Get-WindowsAutoPilotInfo
+ Get-WindowsAutoPilotInfo -OutputFile C:\temp\APHash.csv
+```
+If you have RMM software you could write something fancy to collect many at once.
 
 📔 The generated CSV can then be uploaded into either the Partner Centre:
 
