@@ -1,5 +1,5 @@
 ---
-title: index
+title: M365 Business Premium
 has_children: false
 nav_order: 1
 ---
