@@ -42,4 +42,32 @@ If you have RMM software you could write something fancy to collect many at once
 
 💻 Or into Endpoint Manager:
 
-**Devices -> Enrol -> Devices -> Import**
+**Devices -> Enroll -> Devices -> Import**
+
+## Creating an Autopilot Profile
+
+From [Endpoint Manager](https://endpoint.microsoft.com) go to Devices -> Enroll Devices -> Deployment Profiles -> Create
+
+Here is an example of a configured profile that I've set to assign to all devices:
+
+| Configuration                             | Option          |
+|-------------------------------------------|-----------------|
+| Name                                      | Win10_AP        |
+| Convert all targeted devices to Autopilot | Yes             |
+| Device Type                               | Windows PC      |
+| Deployment Mode                           | User-Driven     |
+| Join to Azure AD as                       | Azure AD Joined |
+| Language                                  | English         |
+| Automatically configure keyboard          | Yes             |
+| Microsoft Software License Terms          | Hide            |
+| Privacy Settings                          | Hide            |
+| Hide change account options               | Hide            |
+| User account type                         | Standard        |
+| Allow White Glove OOBE                    | No              |
+| Apply Device name template                | No              |
+
+These are the initial settings, but you can also apply some verbose loading options too by going to Devices -> Enrollment Status Page.
+
+You'll see a default policy there already which you can change to prevent the device being used until all specified apps are installed (Setting name: Show app and profile configuration progress).
+
+If you want to go a step further, go to Azure AD -> Company Branding -> Configure. From here you can upload custom images and select colours that customise the sign in process across Azure services, including Autopilot registration.
