@@ -1,6 +1,6 @@
 ---
 title: Autopilot
-parent: Devices
+parent: Devices 💻
 has_children: true
 nav_order: 1
 ---

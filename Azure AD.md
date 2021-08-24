@@ -1,6 +1,6 @@
 ---
 title: Azure AD
-parent: Identity
+parent: Identity 👨‍💼
 has_children: false
 nav_order: 1
 ---
