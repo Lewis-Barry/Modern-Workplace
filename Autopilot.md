@@ -26,12 +26,14 @@ Some vendors are able to supply you with the Autopilot hash when you buy equipme
 
 Run the following in an elevated PowerShell window
 
-```New-Item -Type Directory -Path "C:\HWID"
+```
+New-Item -Type Directory -Path "C:\HWID"
 Set-Location -Path "C:\HWID"
 Set-ExecutionPolicy -Scope Process -ExecutionPolicy RemoteSigned
 Install-Script -Name Get-WindowsAutoPilotInfo
 Get-WindowsAutoPilotInfo -OutputFile AutoPilotHWID.csv
 ```
+
 📔 The generated CSV can then be uploaded into either the Partner Centre:
 
 **Partner Portal -> CSP -> Customers -> Contoso -> Devices -> Add Devices**
