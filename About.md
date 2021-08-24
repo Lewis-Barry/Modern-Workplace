@@ -1,6 +1,6 @@
 ---
 title: About
-parent: Home
+parent: Home 🏠
 has_children: false
 nav_order: 1
 ---
