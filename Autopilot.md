@@ -1,7 +1,7 @@
 ---
 title: Autopilot
 parent: Devices
-has_children: false
+has_children: true
 nav_order: 1
 ---
 
@@ -70,4 +70,18 @@ These are the initial settings, but you can also apply some verbose loading opti
 
 You'll see a default policy there already which you can change to prevent the device being used until all specified apps are installed (Setting name: Show app and profile configuration progress).
 
+When configured, the user will see this while they wait:
+
+![Enroll Status Page](https://docs.microsoft.com/en-us/mem/autopilot/images/enrollment-status-page.png)
+
 If you want to go a step further, go to Azure AD -> Company Branding -> Configure. From here you can upload custom images and select colours that customise the sign in process across Azure services, including Autopilot registration.
+
+## End user process
+
+- The device will boot, detect org, apply custom Autopilot OOBE experience
+- Prompt user for sign in
+- User will provide credentials and MFA if configured
+- Device will begin deploying configuration profiles, apps and settings
+- User will sign in again, and configure Windows Hello if configured
+
+Once complete, the end user can begin using their Windows PC.
