@@ -1,5 +1,5 @@
 ---
-title: M365 Business Premium
+title: Home
 has_children: false
 nav_order: 1
 ---
