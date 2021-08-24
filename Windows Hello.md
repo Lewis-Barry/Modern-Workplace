@@ -1,6 +1,7 @@
 ---
 title: Windows Hello
 parent: Autopilot
+grand_parent: Devices
 has_children: false
 nav_order: 1
 ---
