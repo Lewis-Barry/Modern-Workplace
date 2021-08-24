@@ -8,4 +8,6 @@ M365 BP is, in my view, the quintessential starting point for a small business w
 
 In a nutshell it gives your users all the familiar things they expect, and provides doezens of other features which they could be using to improve their workflow. Most deployments of M365 BP that I've seen don't extend beyond Office apps and very basic Intune deployments.
 
-This site will examine the key features in detail as I learn about setting baselines for my own uses and clientbase. I'm open to critique, this is just one man's view.☯️
+This site will examine the key features in detail as I learn about setting baselines for my own uses and clientbase. 
+
+I'm open to critique, this is just one man's view.☯️
