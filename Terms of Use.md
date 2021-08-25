@@ -1,6 +1,7 @@
 ---
 title: Terms of use
 parent: Conditional Access
+grand_parent: Identity 👨‍💼
 has_children: false
 nav_order: 1
 ---
