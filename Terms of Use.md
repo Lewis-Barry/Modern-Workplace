@@ -16,7 +16,7 @@ First prepare a PDF with the relevant company information, then head over to you
 
 > 💡 Each ToU must be tied to a Conditional Access policy
 
-![Azure AD Terms of Use](Images/ToUconfig.png)
+![Azure AD Terms of Use](Images/ToUConfig.png)
 
 You may wish to have an explicit Conditional Access policy just for your terms of use. In which case, configure one with the following settings:
 
@@ -27,6 +27,6 @@ You may wish to have an explicit Conditional Access policy just for your terms o
 
 For end users it looks like:
 
-![ToU end-user](Images/ToUEnduser.png)
+![ToU end-user](Images/ToUEndUser.png)
 
 For more detail, check out the [Microsoft Docs ToU guide](https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/terms-of-use)
