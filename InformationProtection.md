@@ -33,7 +33,7 @@ You want a label that prevents the forwarding of emails which users can choose t
     2. In Outlook, enforce... Check: Do Not Forward
 6. Finish
 
-**Label Policy**
+#### Label Policy
 
 Created labels must be assigned to a policy before your users can access them. You can create a policy directly from your label. Any subsequent labels added will follow the policy rules.
 
@@ -42,5 +42,9 @@ Created labels must be assigned to a policy before your users can access them. Y
 If you're dealing with particularly sensitive data, you can make it mandatory that users have to justify their actions.
 
 ![Policy Settings](Images/PolicySettings.png)
+
+And for end users it looks like:
+
+![OWA Labels](Images/OWAFW.png)
 
 [Learn more about labels](https://docs.microsoft.com/en-us/microsoft-365/compliance/sensitivity-labels?view=o365-worldwide)
