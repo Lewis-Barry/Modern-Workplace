@@ -1,7 +1,8 @@
 ---
 title: Information Protection 🔏
-has_children: true
-nav_order: 3
+has_children: False
+parent: Compliance & Security 📑
+nav_order: 1
 ---
 
 ## Azure Information Protection 🛠️
