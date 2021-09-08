@@ -9,7 +9,6 @@ nav_order: 2
 
 Training users to report phishing messages correctly is a great way to prevent malicious email  circulating in your company, and helps Microsoft to improve their spam detection success. There is a free add-in that you can deploy from the Microsoft Admin Portal which allows your users to do this.
 
-
 ![Report Phishing](Images/ReportPhishing.png)
 
 ![Confirm Report](Images/PhishConfirm.png)
