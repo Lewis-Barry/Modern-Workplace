@@ -1,51 +1,32 @@
 ---
-title: Information Protection 🔏
+title: Report Phishing add-in
 has_children: False
 parent: Compliance & Security 📑
-nav_order: 1
+nav_order: 2
 ---
 
-## Azure Information Protection 🛠️
+## Report Phishing add-in for Outlook 🔍
 
-Microsoft 365 Business Premium unlocks some of the core features of AIP, which later extends into some very impressive automated policies as you climb the licensing ladder all the way up to Microsoft 365 E5.
+Training users to report phishing messages correctly is a great way to prevent malicious email  circulating in your company, and helps Microsoft to improve their spam detection success. There is a free add-in that you can deploy from the Microsoft Admin Portal which allows your users to do this.
 
-AIP is administered from [https://compliance.microsoft.com/](https://compliance.microsoft.com/informationprotection?viewid=sensitivitylabels)
 
-### What is a label?
+![Report Phishing](Images/ReportPhishing.png)
 
-For files and emails that move between your company, a label can be applied to them which classifies the sensitivity of the information contained within. Depending on what your admin configures, the type of label you apply will also set some conditions to that item. For example, a label titled *Confidential* might encrypt whatever it is applied to. You can also apply a pre-configured watermark.
+![Confirm Report](Images/PhishConfirm.png)
 
-### What can be labelled?
+### Enabling for all users
 
-- Files & Emails
-- Groups & SharePoint Sites
-- Azure Purview assets
+1. Go to: https://admin.microsoft.com/#/Settings/AddIns
+2. Click Deploy add-in, choose from the store
+3. Search for "Report Message"
+4. Select the Microsoft one and follow the steps on-screen
 
-### Example Scenario
+Within 24 hours, users should see the button.
 
-You want a label that prevents the forwarding of emails which users can choose to apply when required. Your administrator has configured a label as shown below:
+### What happens to those emails?
 
-1. Create Label
-2. Name: No Forward
-3. Scope: Files & Emails
-4. Encrypt Files and emails
-5. Configure Encryption Settings
-    1. Let Users assign permissions...
-    2. In Outlook, enforce... Check: Do Not Forward
-6. Finish
+An admin can review all emails that users in the company have reported via the add-in. The admin also has the ability to dig deeper into the message and find out information such as contained links, and who else it was sent to.
 
-#### Label Policy
+![Phish Submission](Images/FishingSubmission.png)
 
-Created labels must be assigned to a policy before your users can access them. You can create a policy directly from your label. Any subsequent labels added will follow the policy rules.
-
->⚠️ Published policies take 24hrs to apply.
-
-If you're dealing with particularly sensitive data, you can make it mandatory that users have to justify their actions.
-
-![Policy Settings](Images/PolicySettings.png)
-
-And for end users it looks like:
-
-![OWA Labels](Images/OWAFW.png)
-
-[Learn more about labels](https://docs.microsoft.com/en-us/microsoft-365/compliance/sensitivity-labels?view=o365-worldwide)
+[Learn more on MS Docs](https://docs.microsoft.com/en-us/microsoft-365/security/office-365-security/enable-the-report-message-add-in?view=o365-worldwide)
